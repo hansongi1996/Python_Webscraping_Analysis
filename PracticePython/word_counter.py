@@ -1,5 +1,0 @@
-sentence = input("문장을 입력하세요: ")
-sentence_no_spaces = ' '.join(sentence.split())
-word_count = len(sentence_no_spaces.split())
-print(f"공백 제거: {sentence_no_spaces}")
-print(f"단어 개수: {word_count}개")
